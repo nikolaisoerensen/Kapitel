@@ -1,0 +1,76 @@
+\usepackage{ngerman}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[T1]{fontenc}
+
+\usepackage{geometry}
+
+\geometry{
+  left=2.7cm,
+  right=2cm,
+  top=2cm,
+  bottom=2cm,
+}
+
+%[left=2cm,top=3cm,right=3cm,bottom=3cm] 
+
+%\usepackage{scrpage2}
+
+%\pagestyle{scrheadings}
+
+%\ofoot{\pagemark}
+
+%\setcounter{page}{3}
+
+\usepackage{booktabs}
+
+\usepackage[tbtags]{mathtools}
+
+\usepackage{amsmath}
+
+\usepackage{setspace}
+
+\usepackage{units}
+
+\usepackage{xcolor}
+
+\usepackage{fancyhdr}
+
+\usepackage{gensymb}
+
+\usepackage{tikz}
+
+\usepackage{graphicx}
+
+\usepackage{Pakete/structuralanalysis}
+
+\usepackage{Pakete/3dstructuralanalysis}
+
+%\usepackage{hyperref}
+
+\usepackage{url}
+
+\urlstyle{same}
+
+
+\pagestyle{fancy}
+
+\fancyhf{}
+
+\renewcommand{\headrulewidth}{0.4 pt}
+
+\renewcommand{\footrulewidth}{0pt}
+
+%\renewcommand{\ref}{\ref{} }
+
+
+\newcommand{\fsection}[1]{\section{#1}\fancyhead[r]{#1}}
+
+\newcommand{\newinput}[1]{\input{#1}\newpage}
+
+\newcommand{\fnote}[1]{\footnotemark\,\footnotetext{#1}}
+
+
+
+
