@@ -34,7 +34,7 @@ class Generator:
 			# to end at 50% of magnet length where magnetic field is strongest
 			l_coil_eff 				= 0.120		# effective coil length per side [m]
 			l_coil_outer 			= (self.stator_r_outer * 2*np.pi/360)*(self.angle_coil+self.angle_coil_space)  # outer coil length per turn [m]
-			l_coil_inner 			= (self.stator_r_outer * 2*np.pi/360)*(self.angle_coil+self.angle_coil_space)  # inner coil length per turn [m]
+			l_coil_inner 			= (self.stator_r_outer * 2*np.pi/360)*(self.angle_coil+self.angle_coil_space)  # inner coil length per turn [m] Warum out??
 			l_coil_space 			= 2*self.stator_r_outer*np.pi*(self.angle_coil_space/360)
 			# max width of layers above magnet surface
 			max_coil_width = (2*np.pi*self.stator_r_outer*self.angle_magnet/360)*0.8

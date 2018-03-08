@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.30)  8 MAR 2018 14:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.26)  8 MAR 2018 17:45
 entering extended mode
-**"C:/Users/Lando/Dropbox/Windchallenge Latex/Kapitel/00_formel.tex"
-("C:/Users/Lando/Dropbox/Windchallenge Latex/Kapitel/00_formel.tex"
-LaTeX2e <2017-04-15>
+**"C:/Users/Lando/Dropbox/Windchallenge Laptop/Kapitel/Kapitel/00_formel.tex"
+("C:/Users/Lando/Dropbox/Windchallenge Laptop/Kapitel/Kapitel/00_formel.tex"
+LaTeX2e <2017/01/01> patch level 1
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 
 ! LaTeX Error: Environment table undefined.
@@ -229,7 +229,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (208.4718pt too wide) in paragraph at lines 9--22
+Overfull \hbox (157.25684pt too wide) in paragraph at lines 9--22
 [][]
  []
 
@@ -616,7 +616,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.44 ...ius zu Stat. Innen&$r_{stat.in} = 37 \text
+l.44 ...ius zu Stat. Innen&$r_{stat.in} = 47 \text
                                                   {mm}$\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -663,8 +663,40 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no § in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.47     \bottomrule
+l.46 ...fektive L√§nge&$l_{coil.eff} = 12 \; \text
+                                                  {mm} $\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.49     \bottomrule
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -679,14 +711,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 \end{table}
+l.51 \end{table}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (244.84639pt too wide) in paragraph at lines 35--50
+Overfull \hbox (160.97025pt too wide) in paragraph at lines 35--52
 [][]
  []
 
@@ -697,7 +729,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 \begin{table}
+l.53 \begin{table}
                   [h!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -710,7 +742,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 \begin{table}[
+l.53 \begin{table}[
                    h!]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -720,7 +752,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 51--52
+Overfull \hbox (20.0pt too wide) in paragraph at lines 53--54
 [] 
  []
 
@@ -731,7 +763,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 \caption
+l.56 \caption
              {Funktionen aus der Klasse (Radial)}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -743,7 +775,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 \caption{F
+l.56 \caption{F
                unktionen aus der Klasse (Radial)}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -785,13 +817,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \begin{tabular}
+l.61 \begin{tabular}
                     {lll}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.60     \toprule
+l.62     \toprule
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -834,7 +866,7 @@ Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
 <recently read> \midrule 
                          
-l.62     \midrule
+l.64     \midrule
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -931,8 +963,106 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ∂ in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ü in font nullfont!
+Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.68     \bottomrule
+l.68 ...\_stat &Spaltgr√∂√üe&$l_{spalt}= 2\; \text
+                                                  {mm} + r_{stat.out} - r_{s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no - in font nullfont!
+! Undefined control sequence.
+<argument> 360 \degree 
+                       
+l.69 ...stat.out} \cdot 2 \cdot \pi }{360 \degree}
+                                                   \cdot (\alpha_{coil} + \a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no - in font nullfont!
+! Undefined control sequence.
+<argument> 360 \degree 
+                       
+l.70 ...stat.out} \cdot 2 \cdot \pi }{360 \degree}
+                                                   \cdot (\alpha_{coil} + \a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no - in font nullfont!
+! Undefined control sequence.
+<argument> 360 \degree 
+                       
+l.71 ...pi \cdot \alpha_{coil.space}}{360 \degree}
+                                                  $\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.75     \bottomrule
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -947,31 +1077,31 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \end{table}
+l.77 \end{table}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (277.57388pt too wide) in paragraph at lines 59--71
+Overfull \hbox (260.10025pt too wide) in paragraph at lines 61--78
 [][]
  []
 
 )
 *
 ! Emergency stop.
-<*> .../Windchallenge Latex/Kapitel/00_formel.tex"
+<*> ...lenge Laptop/Kapitel/Kapitel/00_formel.tex"
                                                   
 End of file on the terminal!
 
  
 Here is how much of TeX's memory you used:
- 18 strings out of 493328
- 359 string characters out of 3139124
- 56405 words of memory out of 3000000
- 3649 multiletter control sequences out of 15000+200000
+ 19 strings out of 493333
+ 392 string characters out of 3139194
+ 58255 words of memory out of 3000000
+ 3646 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 19i,9n,12p,185b,116s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 19i,9n,12p,225b,116s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

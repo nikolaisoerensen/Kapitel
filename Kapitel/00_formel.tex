@@ -43,7 +43,7 @@
 	rotor\_r\_outer &Radius zu Mag. Innen&$r_{rot.out} = 45 \text{mm}$\\
 	stator\_r\_inner &Radius zu Stat. Innen&$r_{stat.in} = 47 \text{mm}$\\
 	stator\_r\_outer &Radius zu Stat. Innen&$r_{stat.out} = 50 \text{mm}$\\
-  l\_coil\_eff &effektive Länge&$l_{coil.eff} = 12 \; \text{mm} $\\
+  l\_coil\_eff &effektive Länge&$l_{coil.eff} = 120 \; \text{mm} $\\
 
 
     \bottomrule
@@ -62,12 +62,12 @@
     \toprule
      Bezeichnung Python & Bedeutung& Formel\\
     \midrule
-	angle\_magnet\_space &Bogenlänge zw. Magnet&$\alpha_ {mag.space} = \frac{180}{p} - \alpha_{mag}$\\
+	angle\_space &Bogenlänge zw. Magnet&$\alpha_ {mag.space} = \frac{180}{p} - \alpha_{mag}$\\
 	angle\_coil\_space &Bogenlänge zw. Spule&$\alpha_{coil.space} = \frac{360}{p} -  \alpha_{coil}$\\
 	r\_magnet &Rad. Mag. innen&$r_{mag} = \frac{r_{rot.in} + r_{rot.out}}{2}$\\
   dist\_rot\_stat &Spaltgröße&$l_{spalt}= 2\; \text{mm} + r_{stat.out} - r_{stat.in}$\\
-  l\_coil\_outer &-&$l_{coil.out}=\frac{r_{stat.out} \cdot 2 \cdot \pi }{360 \degree} \cdot (\alpha_{coil} + \alpha_{coil.space}$\\
-  l\_coil\_inner &-&$l_{coil.in}=\frac{r_{stat.out} \cdot 2 \cdot \pi }{360 \degree} \cdot (\alpha_{coil} + \alpha_{coil.space}$\\
+  l\_coil\_outer &-&$l_{coil.out}=\frac{r_{stat.out} \cdot 2 \cdot \pi }{360 \degree} \cdot (\alpha_{coil} + \alpha_{coil.space})$\\
+  l\_coil\_inner &-&$l_{coil.in}=\frac{r_{stat.out} \cdot 2 \cdot \pi }{360 \degree} \cdot (\alpha_{coil} + \alpha_{coil.space})$\\
   l\_coil\_space &-&$l_{coil.space}= \frac{2 \cdot r_{stat.out} \cdot \pi \cdot \alpha_{coil.space}}{360 \degree}$\\
  
 	
@@ -76,4 +76,59 @@
   \end{tabular}
 \end{table}
 
+\newpage
 
+\begin{table}[h!]
+
+\centering
+\caption{Konstanten Axial}
+\label{tab:const_rad}
+\renewcommand{\arraystretch}{2}
+\setlength{\tabcolsep}{5mm}
+
+\begin{tabular}{lll}
+    \toprule
+     Bezeichnung Python & Bedeutung & Formelzeichen und Wert\\
+    \midrule
+    b\_avg &durch. Mag.feld &$b_{avg}$\\
+  angle\_magnet &Bogenlänge Magnet&$\alpha_ {mag}=60\degree$\\
+  angle\_coil &Bogenlänge Spule&$\alpha_{coil} = 20\degree$\\
+  rotor\_r\_inner &Radius zu Mag. Innen&$r_{rot.in} = 45,5 \text{mm}$\\
+  rotor\_r\_outer &Radius zu Mag. Innen&$r_{rot.out} = 90,5 \text{mm}$\\
+  stator\_r\_inner &Radius zu Stat. Innen&$r_{stat.in} = 45,5 \text{mm}$\\
+  stator\_r\_outer &Radius zu Stat. Innen&$r_{stat.out} = 90,5 \text{mm}$\\
+  dist\_rot\_stat &Spaltgröße&$l_{spalt}= 1\; \text{mm}$\\
+  l\_coil\_eff &effektive Länge&$l_{coil.eff} = 45 \; \text{mm} $\\
+
+
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+
+
+\begin{table}[h!]
+
+\centering
+\caption{Funktionen aus der Klasse (Axial)}
+\label{tab:class.axial}
+\renewcommand{\arraystretch}{2}
+\setlength{\tabcolsep}{5mm}
+
+\begin{tabular}{lll}
+    \toprule
+     Bezeichnung Python & Bedeutung& Formel\\
+    \midrule
+ 
+  angle\_space &Bogenlänge zw. Spule&$\alpha_{space} = \frac{180}{p} -  \alpha_{coil}$\\
+  r\_magnet &Rad. Mag. innen& $ r_{mag} = \frac{r_{rot.in} + r_{rot.out}}{2} $\\
+  l\_coil\_outer &-&$ l_{coil.out}=\frac{r_{stat.out} \cdot 2 \cdot \pi }{360 \degree} \cdot (\alpha_{magnet} + \alpha_{space})$\\
+  l\_coil\_inner &-&$ l_{coil.in}=\frac{r_{stat.in} \cdot 2 \cdot \pi }{360 \degree} \cdot (\alpha_{magnet} + \alpha_{space})$\\
+  l\_coil\_space &-&$ l_{coil.space}= \frac{(r_{rot.in} + r_{rot.out}) \cdot \pi \cdot \alpha_{space}}{360 \degree}$\\
+  max\_coil\_width&maximale Spulenweite&$l_{coil.width.max} = l_{coil.in} \cdot 0,8$\\
+ 
+  
+
+    \bottomrule
+  \end{tabular}
+\end{table}
