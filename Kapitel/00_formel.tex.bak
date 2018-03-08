@@ -4,7 +4,7 @@
 \caption{Allgemeine Konstanten}
 \label{tab:parameter}
 \renewcommand{\arraystretch}{2}
-\setlength{\tabcolsep}{7mm}
+\setlength{\tabcolsep}{10mm}
 
 \begin{tabular}{lll}
     \toprule
@@ -30,7 +30,7 @@
 \caption{Konstanten Radialgenerator}
 \label{tab:const_rad}
 \renewcommand{\arraystretch}{2}
-\setlength{\tabcolsep}{5mm}
+\setlength{\tabcolsep}{10mm}
 
 \begin{tabular}{lll}
     \toprule
@@ -43,9 +43,9 @@
 	rotor\_r\_outer &Radius zu Mag. Innen&$r_{rot.out} = 45 \text{mm}$\\
 	stator\_r\_inner &Radius zu Stat. Innen&$r_{stat.in} = 47 \text{mm}$\\
 	stator\_r\_outer &Radius zu Stat. Innen&$r_{stat.out} = 50 \text{mm}$\\
-  l\_coil\_eff &effektive Länge&$l_{coil.eff} = 12 \; \text{mm} $\\
-
-
+	
+	
+	
     \bottomrule
   \end{tabular}
 \end{table}
@@ -56,7 +56,7 @@
 \caption{Funktionen aus der Klasse (Radial)}
 \label{tab:class.rad}
 \renewcommand{\arraystretch}{2}
-\setlength{\tabcolsep}{5mm}
+\setlength{\tabcolsep}{10mm}
 
 \begin{tabular}{lll}
     \toprule
@@ -65,15 +65,16 @@
 	angle\_magnet\_space &Bogenlänge zw. Magnet&$\alpha_ {mag.space} = \frac{180}{p} - \alpha_{mag}$\\
 	angle\_coil\_space &Bogenlänge zw. Spule&$\alpha_{coil.space} = \frac{360}{p} -  \alpha_{coil}$\\
 	r\_magnet &Rad. Mag. innen&$r_{mag} = \frac{r_{rot.in} + r_{rot.out}}{2}$\\
-  dist\_rot\_stat &Spaltgröße&$l_{spalt}= 2\; \text{mm} + r_{stat.out} - r_{stat.in}$\\
-  l\_coil\_outer &-&$l_{coil.out}=\frac{r_{stat.out} \cdot 2 \cdot \pi }{360 \degree} \cdot (\alpha_{coil} + \alpha_{coil.space}$\\
-  l\_coil\_inner &-&$l_{coil.in}=\frac{r_{stat.out} \cdot 2 \cdot \pi }{360 \degree} \cdot (\alpha_{coil} + \alpha_{coil.space}$\\
-  l\_coil\_space &-&$l_{coil.space}= \frac{2 \cdot r_{stat.out} \cdot \pi \cdot \alpha_{coil.space}}{360 \degree}$\\
- 
+	dist\_rot\_stat &-&$l_{spalt} = 2\; \text{mm} + r_{stat.out} - r_{stat.in}$\\
 	
-
+	
     \bottomrule
   \end{tabular}
 \end{table}
+
+
+
+
+
 
 
