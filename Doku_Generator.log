@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.30)  9 MAR 2018 18:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.30)  10 MAR 2018 10:57
 entering extended mode
 **"F:/Dropbox/Windchallenge Home/Doku_Generator.tex"
 ("F:/Dropbox/Windchallenge Home/Doku_Generator.tex"
@@ -1137,14 +1137,14 @@ Overfull \hbox (81.9536pt too wide) detected at line 1
 \openout6 = `Doku_Generator.lof'.
 
 ) [2] (Kapitel/00_formel.tex [1]
-[2] [3]) [4] (Doku_Generator.aux)
+[2] [3]) [4] (Kapitel/02_start.tex) [5] (Doku_Generator.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17931 strings out of 493328
- 372758 string characters out of 3139124
+ 17934 strings out of 493328
+ 372806 string characters out of 3139124
  473738 words of memory out of 3000000
  21052 multiletter control sequences out of 15000+200000
  8710 words of font info for 22 fonts, out of 3000000 for 9000
@@ -1161,9 +1161,9 @@ s/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Doku_Generator.pdf (6 pages, 119129 bytes).
+Output written on Doku_Generator.pdf (7 pages, 125986 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
+ 180 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
