@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.30)  10 MAR 2018 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.30)  11 MAR 2018 21:46
 entering extended mode
 **"F:/Dropbox/Windchallenge Home/Doku_Generator.tex"
 ("F:/Dropbox/Windchallenge Home/Doku_Generator.tex"
@@ -995,11 +995,7 @@ File: tikzlibrary3d.code.tex 2013/07/17 v3.0.1a (rcs-revision 1.2)
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ))
-(Doku_Generator.aux
-
-LaTeX Warning: Label `tab:const_rad' multiply defined.
-
-)
+(Doku_Generator.aux)
 \openout1 = `Doku_Generator.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -1137,33 +1133,39 @@ Overfull \hbox (81.9536pt too wide) detected at line 1
 \openout6 = `Doku_Generator.lof'.
 
 ) [2] (Kapitel/00_formel.tex [1]
-[2] [3]) [4] (Kapitel/02_start.tex) [5] (Doku_Generator.aux)
+[2] [3]) [4] (Kapitel/02_geometrielaeufer.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
 
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+) [5]
+(Doku_Generator.aux) ) 
 Here is how much of TeX's memory you used:
- 17934 strings out of 493328
- 372806 string characters out of 3139124
- 473738 words of memory out of 3000000
- 21052 multiletter control sequences out of 15000+200000
- 8710 words of font info for 22 fonts, out of 3000000 for 9000
+ 17951 strings out of 493328
+ 373101 string characters out of 3139124
+ 473667 words of memory out of 3000000
+ 21064 multiletter control sequences out of 15000+200000
+ 10250 words of font info for 24 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,71p,429b,268s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Lando\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecbx1000.pk> <C:\Users\Lando\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecbx1440.pk> <C:\Users\Lando\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecrm1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Doku_Generator.pdf (7 pages, 125986 bytes).
+ <C:\Users\Lando\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Lando\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Lando\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Lando\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Doku_Generator.pdf (7 pages, 137387 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
+ 212 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
